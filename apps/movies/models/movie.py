@@ -13,4 +13,4 @@ class Movie(models.Model):
         ordering = ["year"]
 
     def __str__(self) -> str:
-        return self.name
+        return self.title

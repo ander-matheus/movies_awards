@@ -19,7 +19,9 @@
    > No windows: venv\Scripts\activate
    > No MacOS/Linux: source venv/bin/activate
 1. Instale as dependências do projeto
-   > pip install -r requirements
+   > pip install -r requirements.txt
+1. Rode os testes:
+   > python manage.py test
 1. Inicie o projeto
    > python manage.py runserver
 1. Acesse o projeto em [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
