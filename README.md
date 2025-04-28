@@ -21,6 +21,8 @@
    > No MacOS/Linux: source venv/bin/activate
 1. Instale as dependências do projeto
    > pip install -r requirements.txt
+1. Rode as migrações
+   > python manage.py migrate
 1. Rode os testes (recomendado):
    > python manage.py test
 1. Inicie o projeto
