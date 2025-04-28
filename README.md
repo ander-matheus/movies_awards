@@ -14,14 +14,18 @@
 ### Como rodar o projeto
 
 1. Clone o repositório
+   > git clone https://github.com/ander-matheus/movies_awards.git
 1. Crie o ambiente virtual (recomendado)
    > python -m venv venv
    > No windows: venv\Scripts\activate
    > No MacOS/Linux: source venv/bin/activate
 1. Instale as dependências do projeto
    > pip install -r requirements.txt
-1. Rode os testes:
+1. Rode os testes (recomendado):
    > python manage.py test
 1. Inicie o projeto
    > python manage.py runserver
 1. Acesse o projeto em [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+1. Se você ver a tela abaixo, está tudo certo! :)
+
+<img src="https://github.com/ander-matheus/movies_awards/blob/main/Golden-Raspberry-Awards-API.png" alt="home print">
