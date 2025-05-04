@@ -4,6 +4,7 @@ import csv
 import logging
 import os
 import re
+import sys
 
 from django.conf import settings
 from django.db import ProgrammingError, migrations
@@ -18,6 +19,8 @@ def split_names(names: str) -> list:
 
 
 def load_csv_data(apps, schema_editor):
+    if "test" in sys.argv:
+        return
     Movie = apps.get_model("movies", "Movie")
     Producer = apps.get_model("movies", "Producer")
     Studio = apps.get_model("movies", "Studio")
